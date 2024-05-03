@@ -1,11 +1,9 @@
-//The code is for question 5
 
 #include <iostream>
 #include <cmath>
 
 using namespace std;
-
-// Function prototypes
+// declaring functions
 double calculateSquareArea();
 double calculateRectangleArea();
 double calculateTriangleArea();
@@ -18,7 +16,6 @@ double calculateSquareArea() {
     cin >> side;
     return side * side;
 }
-
 // Function to calculate the area of a rectangle
 double calculateRectangleArea() {
     double length, width;
@@ -28,7 +25,6 @@ double calculateRectangleArea() {
     cin >> width;
     return length * width;
 }
-
 // Function to calculate the area of a triangle
 double calculateTriangleArea() {
     double base, height;
@@ -38,7 +34,6 @@ double calculateTriangleArea() {
     cin >> height;
     return 0.5 * base * height;
 }
-
 // Function to get user input for shape selection
 int getInput() {
     int selection;
@@ -58,7 +53,7 @@ int getInput() {
         }
     }
 }
-
+// function
 int main() {
     while (true) {
         int choice = getInput();
