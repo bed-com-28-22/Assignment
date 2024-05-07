@@ -66,20 +66,20 @@ int main() {
         return 1;
     }
 
-    string fileData;
-    getline(file, fileData);
+    string read;
+    getline(file, read);
 
     // Calculate and output number of vowels
-    cout << "Number of vowels in the statement: " << countVowels(fileData) << endl;
+    cout << "Number of vowels in the statement: " << countVowels(read) << endl;
 
     // Calculate and output number of words
-    cout << "Number of words in the statement: " << countWords(fileData) << endl;
+    cout << "Number of words in the statement: " << countWords(read) << endl;
 
     // Output statement in reverse
-    cout << "Statement in reverse: " << reverse(fileData) << endl;
+    cout << "Statement in reverse: " << reverse(read) << endl;
 
     // Output statement with second letter capitalized
-    cout << "Statement with second letter capitalized: " << capitalizeSecondLetter(fileData) << endl;
+    cout << "Statement with second letter capitalized: " << capitalizeSecondLetter(read) << endl;
 
     file.close();
     return 0;
