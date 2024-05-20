@@ -8,7 +8,7 @@ int main(){
     cin>>k;
     if(k>3){
         cout<<"maximum number of elements entered"<<endl;
-        k=3;
+     k=3;
     }
      cout<<"Enter the number of elements for the second array"<<endl;
      cin>>l;
